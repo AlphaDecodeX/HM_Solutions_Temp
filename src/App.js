@@ -48,6 +48,22 @@ function App() {
                 Hello I am container here
                 <ScaleButton right={position.x} bottom={position.y} scaleDiv={scaleDivHandler} />
             </Canvas>
+            
+    {/* edited */}
+            <div style={{
+                backgroundColor:"magenta", 
+                color:"white", 
+                // minWidth:"5rem", 
+                width:"10rem",
+                // minHeight:"5rem",
+                height:"10rem", 
+                resize:"both", 
+                overflow:"auto",
+                margin:"5rem",
+                }}>
+                Hello I am container here
+            </div>
+
         </div>
     )
 }
